@@ -20,7 +20,7 @@ ReactFC.fcRoot(FusionCharts, Column2D, FusionTheme);
 // STEP 2 - Chart Data
 const chartData = [
   {
-    label: "Venezuela",
+    label: "Venezuela+",
     value: "290"
   },
   {
