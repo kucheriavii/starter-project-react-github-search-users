@@ -1026,7 +1026,7 @@ export default [
       
     ],
     "visibility": "public",
-    "forks": 0,
+    "forks": 40,
     "open_issues": 0,
     "watchers": 0,
     "default_branch": "master"
@@ -1128,7 +1128,7 @@ export default [
       
     ],
     "visibility": "public",
-    "forks": 0,
+    "forks": 20,
     "open_issues": 0,
     "watchers": 0,
     "default_branch": "master"
@@ -1332,7 +1332,7 @@ export default [
       
     ],
     "visibility": "public",
-    "forks": 0,
+    "forks": 10,
     "open_issues": 0,
     "watchers": 0,
     "default_branch": "master"
@@ -1434,7 +1434,7 @@ export default [
       
     ],
     "visibility": "public",
-    "forks": 0,
+    "forks": 20,
     "open_issues": 0,
     "watchers": 0,
     "default_branch": "main"
@@ -1523,7 +1523,7 @@ export default [
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 0,
+    "forks_count": 10,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -1625,7 +1625,7 @@ export default [
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 0,
+    "forks_count": 10,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
