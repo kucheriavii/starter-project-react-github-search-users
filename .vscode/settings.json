@@ -1,0 +1,28 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "postgre1",
+            "database": "salary_db",
+            "username": "postgres"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "mysql1",
+            "database": "default",
+            "username": "root",
+            "askForPassword": true
+        }
+    ]
+}
