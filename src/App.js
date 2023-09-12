@@ -5,19 +5,21 @@ import { Switch } from 'react-router-dom/cjs/react-router-dom.min';
 
 function App() {
   return (
-    <Router>
-        <Switch>
-          <PrivateRoute path="/" exact={true}>
-            <Dashboard></Dashboard>
-          </PrivateRoute> 
-          <Route path="/login">
-            <Login></Login>
-          </Route> 
-          <Route path="*">
-            <Error></Error>
-          </Route>
-        </Switch>
-    </Router>
+    <AuthWrapper >
+      <Router>
+          <Switch>
+            <PrivateRoute path="/" exact={true}>
+              <Dashboard></Dashboard>
+            </PrivateRoute> 
+            <Route path="/login">
+              <Login></Login>
+            </Route> 
+            <Route path="*">
+              <Error></Error>
+            </Route>
+          </Switch>
+      </Router>
+    </AuthWrapper>
   );
 }
 
