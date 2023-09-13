@@ -1,23 +1,18 @@
 import React from 'react';
 import { Dashboard, Login, PrivateRoute, AuthWrapper, Error } from './pages';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { Switch } from 'react-router-dom/cjs/react-router-dom.min';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <AuthWrapper >
       <Router>
-          <Switch>
-            <PrivateRoute path="/" exact={true}>
-              <Dashboard></Dashboard>
-            </PrivateRoute> 
-            <Route path="/login">
-              <Login></Login>
-            </Route> 
-            <Route path="*">
-              <Error></Error>
-            </Route>
-          </Switch>
+          <Routes>
+            <Route path="/" element={<PrivateRoute>
+              <Dashboard />
+              </PrivateRoute>}/>
+            <Route path="login" element={<Login />} />
+            <Route path="*" element={<Error />} />
+          </Routes>
       </Router>
     </AuthWrapper>
   );
